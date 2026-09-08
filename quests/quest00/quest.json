@@ -1,0 +1,12 @@
+{
+  "name": "quest00",
+  "description": "Shell basics: files, size, permissions, git, cat",
+  "aliases": ["quest00", "quest-00", "quest_00", "js-quest00", "my-quest00"],
+  "exercises": [
+    {"dir": "ex00", "title": "MY-FIRST-FILE", "points": 1},
+    {"dir": "ex01", "title": "MY-FIRST-FILE-WITH-CONTENT", "points": 2},
+    {"dir": "ex02", "title": "MY-FIRST-FILE-WITH-CONTENT-AND-PERMS", "points": 6},
+    {"dir": "ex03", "title": "MY-GITADDCOMMITPUSH", "points": 2},
+    {"dir": "ex04", "title": "MY-Z", "points": 2}
+  ]
+}
