@@ -1,0 +1,11 @@
+{
+  "name": "js-quest04",
+  "description": "Standalone Node scripts: hello world, typed variables, conditions, functions",
+  "aliases": ["js-quest04", "js_quest04", "jsquest04", "quest04"],
+  "exercises": [
+    {"dir": "ex00", "title": "MY-FIRST-SCRIPT", "points": 1},
+    {"dir": "ex01", "title": "MY-MULTIPLE-VARIABLES-MULTIPLE-TYPE", "points": 1},
+    {"dir": "ex02", "title": "MY-FIRST-IF-MULTIPLE-CONDITIONS", "points": 1},
+    {"dir": "ex03", "title": "MY-FIRST-FUNCTION", "points": 1}
+  ]
+}

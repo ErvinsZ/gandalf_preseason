@@ -204,3 +204,4 @@ maximum score jump around between runs.
 - **js-quest01** — ex00 to ex04 (HTML/CSS/JS basics)
 - **js-quest02** — ex00 to ex06 (variables, types, increment, if/else, DOM styling)
 - **js-quest03** — ex00 to ex04 (loops, functions, params, return values, DOM positioning)
+- **js-quest04** — ex00 to ex03 (standalone Node scripts, single output-match scoring)
