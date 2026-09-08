@@ -1,0 +1,14 @@
+{
+  "name": "js-quest05",
+  "description": "Standalone Node scripts: CLI args, functions with return values across multiple test cases",
+  "aliases": ["js-quest05", "js_quest05", "jsquest05", "quest05"],
+  "exercises": [
+    {"dir": "ex00", "title": "MY-FIRST-SCRIPT-WITH-ARGS", "points": 3},
+    {"dir": "ex01", "title": "MY-IS-NEGATIVE", "points": 4},
+    {"dir": "ex02", "title": "MY-ABS", "points": 4},
+    {"dir": "ex03", "title": "MY-ADD", "points": 5},
+    {"dir": "ex04", "title": "MY-SUB", "points": 5},
+    {"dir": "ex05", "title": "MY-MULT", "points": 5},
+    {"dir": "ex06", "title": "MY-STRING-FORMATTING", "points": 3}
+  ]
+}
