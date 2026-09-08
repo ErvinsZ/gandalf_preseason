@@ -117,6 +117,15 @@ picked up correctly: each `<script>` tag runs as its own top-level script in
 one shared `vm` context, which — like separate `<script>` tags in a real
 page — keeps `let`/`const` bindings visible to code that runs after them.
 
+For if/else exercises, a script that just prints the "expected" string
+regardless of its actual comparison would fool a check that only runs the
+example values once. `lib/html.js`'s `overrideAssignment`/`overrideMany` patch
+the fixed input variables (e.g. swap `nbr = 10;` for `nbr = 25;`) and re-run
+the same script, so the real comparison logic is what gets graded, not a
+lucky match with the instructions' example. DOM-manipulation exercises get a
+minimal `document.getElementById` stub (`makeDomStub`) rather than a jsdom
+dependency, sufficient for `.style.property = value` assignments.
+
 ## Safety
 
 Every exercise is copied into a temporary directory before any check runs.
@@ -193,3 +202,4 @@ maximum score jump around between runs.
 
 - **quest00** — ex00 to ex04 (shell basics)
 - **js-quest01** — ex00 to ex04 (HTML/CSS/JS basics)
+- **js-quest02** — ex00 to ex06 (variables, types, increment, if/else, DOM styling)

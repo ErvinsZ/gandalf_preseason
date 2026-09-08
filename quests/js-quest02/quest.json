@@ -1,0 +1,47 @@
+{
+  "name": "js-quest02",
+  "description": "JS basics: char/string variables, types, increment, if/else, DOM styling",
+  "aliases": [
+    "js-quest02",
+    "js_quest02",
+    "jsquest02",
+    "quest02"
+  ],
+  "exercises": [
+    {
+      "dir": "ex00",
+      "title": "MY-HTML-JOURNEY-VARIABLE-CHAR",
+      "points": 3
+    },
+    {
+      "dir": "ex01",
+      "title": "MY-HTML-JOURNEY-VARIABLE-STRING",
+      "points": 3
+    },
+    {
+      "dir": "ex02",
+      "title": "MY-HTML-JOURNEY-MULTIPLE-VARIABLE-TYPE",
+      "points": 8
+    },
+    {
+      "dir": "ex03",
+      "title": "MY-HTML-JOURNEY-FIRST-INCREMENTATION",
+      "points": 4
+    },
+    {
+      "dir": "ex04",
+      "title": "MY-HTML-JOURNEY-FIRST-IF-ELSE",
+      "points": 3
+    },
+    {
+      "dir": "ex05",
+      "title": "MY-HTML-JOURNEY-FIRST-IF-MULTIPLE-CONDITIONS",
+      "points": 9
+    },
+    {
+      "dir": "ex06",
+      "title": "MY-HTML-JOURNEY-CHANGE-BOX-COLOR-WITH-JS",
+      "points": 3
+    }
+  ]
+}
