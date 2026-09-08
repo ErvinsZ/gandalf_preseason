@@ -1,0 +1,12 @@
+{
+  "name": "gandalf-preseason",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline clone of Qwasar's gandalf test runner",
+  "bin": {
+    "gandalf": "bin/gandalf"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

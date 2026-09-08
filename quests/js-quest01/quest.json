@@ -1,0 +1,12 @@
+{
+  "name": "js-quest01",
+  "description": "HTML/CSS/JS basics: tags, styling, tables, variables, console.log",
+  "aliases": ["js-quest01", "js_quest01", "jsquest01", "quest01"],
+  "exercises": [
+    {"dir": "ex00", "title": "MY-FIRST-WEBPAGE", "points": 2},
+    {"dir": "ex01", "title": "MY-HTML-JOURNEY-CHANGE-BOX-COLOR", "points": 2},
+    {"dir": "ex02", "title": "MY-HTML-JOURNEY-TABLE", "points": 2},
+    {"dir": "ex03", "title": "MY-HTML-JOURNEY-VARIABLE-INTEGER", "points": 2},
+    {"dir": "ex04", "title": "MY-HTML-JOURNEY-DEBUGGING", "points": 1}
+  ]
+}

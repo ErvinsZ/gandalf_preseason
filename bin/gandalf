@@ -1,19 +1,4 @@
-#!/usr/bin/env python3
-"""gandalf - local offline test runner for Qwasar exercises."""
-import os
-import sys
+#!/usr/bin/env node
+"use strict";
 
-try:  # `gandalf | head` should quit quietly, not traceback
-    import signal
-    signal.signal(signal.SIGPIPE, signal.SIG_DFL)
-except (ImportError, AttributeError, ValueError):
-    pass
-
-HERE = os.path.dirname(os.path.realpath(__file__))
-ROOT = os.path.dirname(HERE)
-sys.path.insert(0, ROOT)
-
-from gandalf.cli import main  # noqa: E402
-
-if __name__ == "__main__":
-    sys.exit(main(sys.argv[1:]))
+require("../lib/cli").main(process.argv.slice(2));
