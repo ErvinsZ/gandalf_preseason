@@ -1,0 +1,12 @@
+{
+  "name": "js-quest03",
+  "description": "JS basics: while loops, functions, parameters, return values, DOM positioning",
+  "aliases": ["js-quest03", "js_quest03", "jsquest03", "quest03"],
+  "exercises": [
+    {"dir": "ex00", "title": "MY-HTML-JOURNEY-FIRST-WHILE", "points": 2},
+    {"dir": "ex01", "title": "MY-HTML-JOURNEY-FIRST-FUNCTION", "points": 2},
+    {"dir": "ex02", "title": "MY-HTML-JOURNEY-FIRST-FUNCTION-WITH-PARAMS", "points": 4},
+    {"dir": "ex03", "title": "MY-HTML-JOURNEY-FIRST-FUNCTION-WITH-RETURN", "points": 3},
+    {"dir": "ex04", "title": "MY-MOVING-BOX", "points": 2}
+  ]
+}
