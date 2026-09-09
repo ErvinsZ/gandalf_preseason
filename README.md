@@ -19,12 +19,25 @@ preseason/                  <- your parent directory, any name
 Requires **Node.js 14+**.
 
 ```bash
-git clone <your-fork-url> gandalf_preseason
+git clone <repo url> gandalf_preseason
 cd gandalf_preseason
 bash install.sh
-source ~/.zshrc      *or restart terminal
+
 ```
 
+```
+If you get ~/.zshrc doesn't exist error
+
+bash
+# create ~/.zshrc if it doesn't already exist
+touch ~/.zshrc
+
+# add the PATH line
+echo 'export PATH="your path"' >> ~/.zshrc      should be in the terminal error message  
+
+# apply it to the current terminal
+source ~/.zshrc
+```
 The installer symlinks `bin/gandalf` into `~/.local/bin` and tells you what
 to add to `~/.zshrc` if that directory isn't on your `PATH` yet.
 
