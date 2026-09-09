@@ -1,0 +1,8 @@
+{
+  "name": "my_css_is_easy_i",
+  "description": "Responsive flexbox layout: index.html + style.css, mobile-stacked / desktop-split",
+  "aliases": ["my_css_is_easy_i", "my-css-is-easy-i", "mycssiseasyi"],
+  "exercises": [
+    {"dir": ".", "module": "ex00", "title": "MY-CSS-IS-EASY-I", "points": 16, "rspec": true}
+  ]
+}

@@ -24,7 +24,7 @@ function main() {
     for (const ex of quest.exercises) {
       const emptyRoot = fs.mkdtempSync(path.join(os.tmpdir(), "gandalf-selftest-"));
       const target = path.join(emptyRoot, ex.dir);
-      fs.mkdirSync(target);
+      if (!fs.existsSync(target)) fs.mkdirSync(target);
 
       let grader;
       try {
