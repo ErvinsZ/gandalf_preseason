@@ -1,0 +1,11 @@
+{
+  "name": "js-quest07",
+  "description": "Standalone Node scripts: array mapping, uniqueness, hash/object aggregation",
+  "aliases": ["js-quest07", "js_quest07", "jsquest07", "quest07"],
+  "exercises": [
+    {"dir": "ex00", "title": "MY-MAP-MULT-TWO", "points": 3},
+    {"dir": "ex01", "title": "MY-COUNT-ON-IT", "points": 3},
+    {"dir": "ex02", "title": "MY-ARRAY-UNIQ", "points": 3},
+    {"dir": "ex03", "title": "MY-AVERAGE-MARK", "points": 3}
+  ]
+}
