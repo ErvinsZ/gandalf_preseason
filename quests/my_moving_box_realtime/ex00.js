@@ -14,60 +14,11 @@
 // steps through it correctly, since we inspect every intermediate value.
 
 const vm = require("vm");
+const { makeFakeClock } = require("../../lib/faketime");
 const { extractScripts, getElementById, getAttr, parseInlineStyle, isZeroLength } = require("../../lib/html");
 
 const FILE = "index.html";
 const EXPECTED_OUTPUT = "box moving Y dimension and box moving X dimension";
-
-function makeFakeClock() {
-  let now = 0;
-  let nextId = 1;
-  const intervals = new Map();
-  const timeouts = new Map();
-
-  function setInterval(fn, delay) {
-    const id = nextId++;
-    intervals.set(id, { fn, delay, next: now + delay });
-    return id;
-  }
-  function clearInterval(id) {
-    intervals.delete(id);
-  }
-  function setTimeout(fn, delay) {
-    const id = nextId++;
-    timeouts.set(id, { fn, time: now + delay });
-    return id;
-  }
-  function clearTimeout(id) {
-    timeouts.delete(id);
-  }
-
-  /** Jumps directly from due event to due event, up to `target` ms. */
-  function advanceTo(target) {
-    for (;;) {
-      let nextTime = Infinity;
-      for (const iv of intervals.values()) nextTime = Math.min(nextTime, iv.next);
-      for (const to of timeouts.values()) nextTime = Math.min(nextTime, to.time);
-      if (nextTime === Infinity || nextTime > target) break;
-      now = nextTime;
-      for (const [id, to] of Array.from(timeouts.entries())) {
-        if (to.time === now) {
-          timeouts.delete(id);
-          try { to.fn(); } catch { /* let the exercise's own logic surface issues in state, not here */ }
-        }
-      }
-      for (const [id, iv] of Array.from(intervals.entries())) {
-        if (iv.next === now) {
-          iv.next += iv.delay;
-          try { iv.fn(); } catch { /* ditto */ }
-        }
-      }
-    }
-    now = target;
-  }
-
-  return { setInterval, clearInterval, setTimeout, clearTimeout, advanceTo, get now() { return now; }, get activeIntervals() { return intervals.size; } };
-}
 
 /** A style object that records every right/bottom assignment with its virtual timestamp. */
 function makeTrackedElement(clock, initialStyle) {

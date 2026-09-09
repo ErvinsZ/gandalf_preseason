@@ -1,0 +1,8 @@
+{
+  "name": "my_bouncing_box",
+  "description": "Windows-screensaver-style diagonal bouncing box, animated with setInterval",
+  "aliases": ["my_bouncing_box", "my-bouncing-box", "mybouncingbox"],
+  "exercises": [
+    {"dir": ".", "module": "ex00", "title": "MY-BOUNCING-BOX", "points": 6, "rspec": true}
+  ]
+}
