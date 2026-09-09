@@ -210,3 +210,4 @@ maximum score jump around between runs.
 - **js-quest07** — ex00 to ex03 (array mapping, uniqueness, object aggregation)
 - **my-levenshtein-web** — ex00 (per-test-case "Checks detail Report" format)
 - **my_moving_box_realtime** — ex00 (fake-clock-verified smooth animation timing)
+- **my_spaceship** — ex00 (lenient string-field parsing instead of exact-match)

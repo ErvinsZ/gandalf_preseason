@@ -1,0 +1,8 @@
+{
+  "name": "my_spaceship",
+  "description": "Simulate a rocket ship's flight path (turns and advances) and report its final position/heading",
+  "aliases": ["my_spaceship", "my-spaceship", "myspaceship"],
+  "exercises": [
+    {"dir": "ex00", "title": "MY-SPACESHIP", "points": 4}
+  ]
+}
