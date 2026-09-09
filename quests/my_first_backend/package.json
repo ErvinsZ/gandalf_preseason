@@ -1,0 +1,8 @@
+{
+  "name": "gandalf-my-first-backend-deps",
+  "private": true,
+  "description": "Cached dependency for grading this exercise only -- never committed (see .gitignore)",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

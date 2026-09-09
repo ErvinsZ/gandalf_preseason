@@ -16,7 +16,7 @@ const ROOT = path.dirname(__dirname);
 const { loadQuests } = require("../lib/registry");
 const { grade } = require("../lib/runner");
 
-function main() {
+async function main() {
   let failures = 0;
 
   for (const quest of loadQuests(ROOT)) {
@@ -28,7 +28,7 @@ function main() {
 
       let grader;
       try {
-        ({ grader } = grade(ex, target));
+        ({ grader } = await grade(ex, target));
       } catch (err) {
         console.log(`    ${ex.dir.padEnd(6)} EXPLODED: ${err.message}`);
         failures++;
@@ -59,4 +59,4 @@ function main() {
   return failures ? 1 : 0;
 }
 
-process.exit(main());
+main().then((code) => process.exit(code));

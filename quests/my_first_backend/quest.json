@@ -1,0 +1,8 @@
+{
+  "name": "my_first_backend",
+  "description": "A real Express backend (Frank Sinatra facts API + HTTP Basic Auth), tested with real HTTP requests",
+  "aliases": ["my_first_backend", "my-first-backend", "myfirstbackend"],
+  "exercises": [
+    {"dir": ".", "module": "ex00", "title": "MY-FIRST-BACKEND", "points": 9, "rspec": true}
+  ]
+}

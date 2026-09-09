@@ -213,3 +213,4 @@ maximum score jump around between runs.
 - **my_spaceship** — ex00 (lenient string-field parsing instead of exact-match)
 - **my_css_is_easy_i** — . (static CSS/flexbox analysis, RSpec-style output)
 - **my_bouncing_box** — . (fake-clock bounce-reversal detection, no assumed viewport)
+- **my_first_backend** — . (real Express server, spawned + tested via actual HTTP requests)
