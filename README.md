@@ -1,4 +1,4 @@
-# gandalf_preseason
+# gandalf_preseason for MAC
 
 An offline clone of Qwasar's `gandalf` command. Same output format, same
 `cd`-and-run workflow, no editor and no network required. Runs on Node.js —
