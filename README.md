@@ -23,6 +23,7 @@ git clone <your-fork-url> gandalf_preseason
 cd gandalf_preseason
 bash install.sh
 ```
+*You might need to restart the terminal
 
 The installer symlinks `bin/gandalf` into `~/.local/bin` and tells you what
 to add to `~/.zshrc` if that directory isn't on your `PATH` yet.
