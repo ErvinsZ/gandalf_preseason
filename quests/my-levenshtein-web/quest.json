@@ -1,0 +1,8 @@
+{
+  "name": "my-levenshtein-web",
+  "description": "Qwasar-simplified Levenshtein distance between two equal-length strings",
+  "aliases": ["my-levenshtein-web", "my_levenshtein_web", "mylevenshteinweb"],
+  "exercises": [
+    {"dir": "ex00", "title": "MY-LEVENSHTEIN", "points": 4}
+  ]
+}

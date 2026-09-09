@@ -208,3 +208,4 @@ maximum score jump around between runs.
 - **js-quest05** — ex00 to ex06 (CLI args, functions graded via a hidden-input test harness)
 - **js-quest06** — ex00 to ex04 (string ops, array iteration)
 - **js-quest07** — ex00 to ex03 (array mapping, uniqueness, object aggregation)
+- **my-levenshtein-web** — ex00 (per-test-case "Checks detail Report" format)
