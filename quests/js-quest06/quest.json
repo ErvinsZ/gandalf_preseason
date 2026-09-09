@@ -1,0 +1,12 @@
+{
+  "name": "js-quest06",
+  "description": "Standalone Node scripts: string search, case conversion, length, array iteration",
+  "aliases": ["js-quest06", "js_quest06", "jsquest06", "quest06"],
+  "exercises": [
+    {"dir": "ex00", "title": "MY-STRING-INDEX", "points": 2},
+    {"dir": "ex01", "title": "MY-UPCASE", "points": 3},
+    {"dir": "ex02", "title": "MY-DOWNCASE", "points": 3},
+    {"dir": "ex03", "title": "MY-SIZE", "points": 3},
+    {"dir": "ex04", "title": "MY-EACH", "points": 3}
+  ]
+}

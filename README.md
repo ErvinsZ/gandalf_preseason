@@ -206,3 +206,4 @@ maximum score jump around between runs.
 - **js-quest03** — ex00 to ex04 (loops, functions, params, return values, DOM positioning)
 - **js-quest04** — ex00 to ex03 (standalone Node scripts, single output-match scoring)
 - **js-quest05** — ex00 to ex06 (CLI args, functions graded via a hidden-input test harness)
+- **js-quest06** — ex00 to ex04 (string ops, array iteration)
