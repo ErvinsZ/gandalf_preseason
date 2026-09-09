@@ -20,7 +20,8 @@ Requires **Node.js 14+**.
 
 ```bash
 git clone <your-fork-url> gandalf_preseason
-./gandalf_preseason/install.sh
+cd gandalf_preseason
+bash install.sh
 ```
 
 The installer symlinks `bin/gandalf` into `~/.local/bin` and tells you what
