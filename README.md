@@ -22,8 +22,8 @@ Requires **Node.js 14+**.
 git clone <your-fork-url> gandalf_preseason
 cd gandalf_preseason
 bash install.sh
+source ~/.zshrc      *or restart terminal
 ```
-*You might need to restart the terminal
 
 The installer symlinks `bin/gandalf` into `~/.local/bin` and tells you what
 to add to `~/.zshrc` if that directory isn't on your `PATH` yet.
