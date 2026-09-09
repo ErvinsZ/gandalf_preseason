@@ -16,11 +16,9 @@ preseason/                  <- your parent directory, any name
 
 ## Install
 
-Requires **Node.js 14+**. Check with `node --version`; if that fails on a
-Mac, `xcode-select --install` gets you one, or use `brew install node`.
+Requires **Node.js 14+**.
 
 ```bash
-cd preseason
 git clone <your-fork-url> gandalf_preseason
 ./gandalf_preseason/install.sh
 ```
