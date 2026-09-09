@@ -1,0 +1,8 @@
+{
+  "name": "my_moving_box_realtime",
+  "description": "Smooth CSS animation via JS: move a box by 1 unit every 0.5s over ~35s",
+  "aliases": ["my_moving_box_realtime", "my-moving-box-realtime", "mymovingboxrealtime"],
+  "exercises": [
+    {"dir": "ex00", "title": "MY-MOVING-BOX-REALTIME", "points": 1}
+  ]
+}
